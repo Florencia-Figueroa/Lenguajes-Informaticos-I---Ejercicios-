@@ -1,0 +1,29 @@
+{
+    "consultorio" : "Dr. Ramirez Clinica Genial",
+    "fecha" : "01/04/2026",
+    "turnos" : 
+        [
+            {"turno" : "001",
+             "horario" : "09:00",
+             "estado" : "confirmado",
+             "paciente" : {"nombre" : "Helena Rojas", "dni" : "48.096.120"},
+             "Doctor" :   {"nombre" : "Aldana Dangelo", "espacialidad" : "dermatologia"},
+             "observaciones" : "Es alergica a cremas con conrticoides"
+            },
+
+            {"turno" : "002",
+             "horario" : "09:30",
+             "estado" : "pendiente",
+             "paciente" : {"nombre" : "Sofia Suarez", "dni" : "50.796.120"},
+             "Doctor" :   {"nombre" : "Cristian Gomez", "espacialidad" : "Cardiologia"}
+            },
+
+            {"turno" : "003",
+             "horario" : "12:00",
+             "estado" : "cancelado",
+             "paciente" : {"nombre" : "julieta Diaz", "dni" : "28.096.145"},
+             "Doctor" :   {"nombre" : "Elena Lago", "espacialidad" : "Clinica general"},
+             "observaciones" : "Control anual"
+            }
+        ]
+}
