@@ -1,0 +1,7 @@
+<?xml version= "1.0" encoding= "UTF-8"?>
+    <libro>
+        <titulo>Alicia en el pais de las maravillas</titulo>
+        <autor>Lewis Carroll</autor>
+        <anioPublicacion>1895</anioPublicacion>
+        <genero>Literatura fantastica</genero>
+    </libro>
