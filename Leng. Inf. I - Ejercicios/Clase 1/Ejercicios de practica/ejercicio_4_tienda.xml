@@ -1,0 +1,30 @@
+<?xml version= "1.0" encoding= "UTF-8"?>
+    <catalogo>
+        <categoria nombre= "Lacteos">
+            <producto id="P1">
+                <nombre>Leche</nombre>
+                <precio>2600</precio>
+                <descripcion>Leche larga vida la serenisima</descripcion>
+            </producto>
+
+            <producto id="P2">
+                <nombre>Queso crema</nombre>
+                <precio>4500</precio>
+                <descripcion>Queso crema de la marca la paulina</descripcion>
+            </producto>
+        </categoria>
+
+        <categoria nombre= "Galletitas">
+            <producto id="P3">
+                <nombre>Don satur</nombre>
+                <precio>1800</precio>
+                <descripcion>Biscochitos de grasa</descripcion>
+            </producto>
+
+            <producto id="P4">
+                <nombre>Pitusas</nombre>
+                <precio>1200</precio>
+                <descripcion>Galletitas con relleno sabor frutilla</descripcion>
+            </producto>
+        </categoria>
+    </catalogo>
