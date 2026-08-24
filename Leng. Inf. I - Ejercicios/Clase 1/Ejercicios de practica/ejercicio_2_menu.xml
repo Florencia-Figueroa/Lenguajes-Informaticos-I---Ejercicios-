@@ -1,0 +1,54 @@
+<?xml version= "1.0" encoding= "UTF-8"?>
+    <menu>
+        <entradas id= "E1">
+            <nombre>Rabas</nombre>
+            <precio>8500</precio>
+            <descripcion>Rabas rebosadas en pan rallado con una salsa de ajo</descripcion>
+            <esVegetariano>No</esVegetariano>
+        </entradas>
+        <entradas id= "E2">
+            <nombre>Papas fritas</nombre>
+            <precio>10500</precio>
+            <descripcion>Papas fritas tipo rusticas acompañadas de queso crema y cebolla de verdeo</descripcion>
+            <esVegetariano>Si</esVegetariano>
+        </entradas>
+
+        <platosPrincipales id= "P1">
+            <nombre>Hamburguesa completa</nombre>
+            <precio>15500</precio>
+            <descripcion>Hamburguesa completa con carne, lechuga, tomate y queso</descripcion>
+            <esVegetariano>No</esVegetariano>
+        </platosPrincipales>
+        <platosPrincipales id= "P2">
+            <nombre>Ensalada César</nombre>
+            <precio>12500</precio>
+            <descripcion>Ensalada César con pollo a la parrilla</descripcion>
+            <esVegetariano>No</esVegetariano>
+        </platosPrincipales>        
+
+        <postres id = "Po1">
+            <nombre>Flan</nombre>
+            <precio>5600</precio>
+            <descripcion>Flan de huevo con caramelo y dulce de leche</descripcion>
+            <esVegetariano>Si</esVegetariano>
+        </postres>
+        <postres id = "Po2">
+            <nombre>Helado</nombre>
+            <precio>4800</precio>
+            <descripcion>Helado de vainilla con chocolate y salsa a eleccion</descripcion>
+            <esVegetariano>Si</esVegetariano>
+        </postres>
+
+        <Bebidas id = "B1">
+            <nombre>Coca Cola</nombre>
+            <precio>2500</precio>
+            <descripcion>Coca Cola 500ml</descripcion>
+            <esVegetariano>Si</esVegetariano>
+        </Bebidas>
+        <Bebidas id = "B2">
+            <nombre>Agua</nombre>
+            <precio>1500</precio>
+            <descripcion>Agua mineral 500ml</descripcion>
+            <esVegetariano>Si</esVegetariano>
+        </Bebidas>
+    </menu>
