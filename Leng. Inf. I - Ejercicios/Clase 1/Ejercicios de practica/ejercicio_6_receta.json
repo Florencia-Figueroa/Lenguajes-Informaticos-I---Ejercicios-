@@ -1,0 +1,28 @@
+{
+    "nombre" : "Arroz con leche",
+    "ingredientes" : 
+        [
+        {
+         "nombre" : "arroz",
+         "cantidad": 1.2,
+         "unidad" : "kg"
+        },
+        {
+         "nombre" : "leche",
+         "cantidad": 1,
+         "unidad" : "litros"
+        },
+        {
+         "nombre" : "azucar",
+         "cantidad": 1,
+         "unidad" : "cdita"
+        }
+        ],
+    "pasos" :
+        [
+        "Hervir la leche con el azucar",
+        "Agregar el arroz y cocinar 20 min a fuego lento.",
+        "Sumar el azucar y cocinar 10 min más hasta espesar.",
+        "Dejar enfriar y servir."
+        ]
+}

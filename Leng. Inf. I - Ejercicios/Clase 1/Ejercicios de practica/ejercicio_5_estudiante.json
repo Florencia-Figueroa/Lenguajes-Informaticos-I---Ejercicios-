@@ -1,0 +1,6 @@
+{
+    "nombre" : "Flor Petalos",
+    "edad" : 20,
+    "carrera" : "Ingenieria en sistemas",
+    "cursos" : ["Matemáticas", "Física", "Química"]
+}

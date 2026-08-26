@@ -1,0 +1,31 @@
+{
+    "Terror" : 
+    [  
+        {
+        "titulo" : "The conjuring",
+        "director" :"James Wan",
+        "sinopsis" : "una familia que se muda a una granja en Rhode Island sufre aterradores acosos paranormales y pide ayuda a los investigadores Ed y Lorraine Warren"
+        },
+
+        {
+        "titulo" : "It",
+        "director" :"Andrés Muschietti",
+        "sinopsis" : "narra la historia de un grupo de siete niños marginados en el pueblo de Derry, Maine, quienes se hacen llamar el «Club de los Perdedores»"
+        }
+    ],
+
+    "Romance" : 
+    [  
+        {
+        "titulo" : "Orgullo y prejuicio",
+        "director" :"Joe Wright",
+        "sinopsis" : "narra la historia de Elizabeth Bennet y su evolución amorosa con el acaudalado señor Darcy en la Inglaterra del siglo XIX."
+        },
+        
+        {
+        "titulo" : "Yo antes de ti",
+        "director" :"Thea Sharrock",
+        "sinopsis" : "cuenta la historia de Louisa Clark, una joven alegre y sin grandes ambiciones que acepta trabajar como cuidadora de Will Traynor, un exitoso empresario"
+        }
+    ]
+}
