@@ -1,0 +1,32 @@
+{
+  "catalogo": [
+    {
+      "categoria": "Lacteos",
+      "id": "P1",
+      "nombre": "Leche",
+      "precio": 2600,
+      "descripcion": "Leche larga vida la serenisima"
+    },
+    {
+      "categoria": "Lacteos",
+      "id": "P2",
+      "nombre": "Queso crema",
+      "precio": 4500,
+      "descripcion": "Queso crema de la marca la paulina"
+    },
+    {
+      "categoria": "Galletitas",
+      "id": "P3",
+      "nombre": "Don satur",
+      "precio": 1800,
+      "descripcion": "Bizcochitos de grasa"
+    },
+    {
+      "categoria": "Galletitas",
+      "id": "P4",
+      "nombre": "Pitusas",
+      "precio": 1200,
+      "descripcion": "Galletitas con relleno sabor frutilla"
+    }
+  ]
+}

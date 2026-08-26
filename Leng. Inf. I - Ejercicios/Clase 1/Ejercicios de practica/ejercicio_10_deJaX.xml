@@ -1,0 +1,28 @@
+<?xml version= "1.0" encoding= "UTF-8"?>
+ <catalogo>
+    <genero nombre = "Terror">
+        <pelicula>
+            <titulo>The conjuring</titulo>
+            <director>James Wan</director>
+            <sinopsis>una familia que se muda a una granja en Rhode Island sufre aterradores acosos paranormales y pide ayuda a los investigadores Ed y Lorraine Warren</sinopsis>
+        </pelicula>
+        <pelicula>
+            <titulo>It</titulo>
+            <director>Andrés Muschietti</director>
+            <sinopsis>narra la historia de un grupo de siete niños marginados en el pueblo de Derry, Maine, quienes se hacen llamar el «Club de los Perdedores»</sinopsis>
+        </pelicula>
+    </genero>   
+    
+    <genero nombre = "Romance">
+        <pelicula>
+            <titulo>Orgullo y prejuicio</titulo>
+            <director>Joe Wright</director>
+            <sinopsis>narra la historia de Elizabeth Bennet y su evolución amorosa con el acaudalado señor Darcy en la Inglaterra del siglo XIX.</sinopsis>
+        </pelicula>
+        <pelicula>
+            <titulo>Yo antes de ti</titulo>
+            <director>Thea Sharrock</director>
+            <sinopsis>cuenta la historia de Louisa Clark, una joven alegre y sin grandes ambiciones que acepta trabajar como cuidadora de Will Traynor, un exitoso empresario</sinopsis>
+        </pelicula>
+    </genero>
+ </catalogo> 
