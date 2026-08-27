@@ -1,0 +1,26 @@
+Indicá si cada afirmación es verdadera (V) o falsa (F). Si es falsa, reescribí la afirmación 
+correctamente. 
+ 
+F___ 1. El DOCTYPE debe ir dentro del elemento <head>. 
+        La declaración <!DOCTYPE html> debe ir al inicio absoluto del documento, antes de la etiqueta <html>
+ 
+V___ 2. El atributo lang en <html lang="es"> le indica al navegador en qué idioma está 
+escrito el contenido. 
+ 
+F___ 3. El elemento <title> define el título que aparece dentro de la página visible al usuario. 
+        El elemento <title> define el título que aparece en la pestaña del navegador
+ 
+F___ 4. Un documento HTML puede tener más de un elemento <body>. 
+        Un documento HTML solo debe tener un <body>
+ 
+V___ 5. La etiqueta <meta charset="UTF-8"> es necesaria para que el navegador muestre 
+correctamente tildes y la letra ñ. 
+ 
+F___ 6. El elemento <head> puede contener texto visible para el usuario. 
+        El <head> alberga metadatos, títulos de pestaña y enlaces a recursos.
+ 
+V___ 7. <link rel="stylesheet" href="estilos.css"> se usa para vincular una hoja de estilos CSS 
+externa. 
+ 
+F___ 8. El elemento <script> solo puede ir al final del <body>, nunca en el <head>. 
+        El elemento <script> puede ubicarse tanto dentro del <head> como al final del <body>. No está restringido a una sola ubicación.
