@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+</head>
+<body>
+    <table> 
+    <thead>  <!-- 1. No tenia <thead> -->
+        <tr> 
+            <th>Nombre</th> 
+            <th>Edad</th> 
+        </tr> 
+    </thead>
+    <tbody> 
+        <tr> 
+            <td>Ana García</td> 
+            <td>28</td> 
+        </tr> 
+        <tr> 
+            <td>Luis Fernández</td> 
+            <td>43</td> <!-- 2. Faltaba el dato en edad -->
+        </tr> 
+    </tbody> 
+    <tfoot> <!-- 3. No tenia <tfooot> -->
+        <tr> 
+            <th colspan="2">Voluntarios</th> <!-- 4. El colspan no coincidia, si tiene dos cols no podia ser 3 -->
+        </tr> 
+    </tfoot> 
+    </table> 
+</body>
+</html>

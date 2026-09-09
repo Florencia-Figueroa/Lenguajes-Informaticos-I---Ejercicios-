@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG</title>
+</head>
+<body>
+    <header>
+        <h1>FundAR - Fundación para la Inclusión Digital</h1>
+        <img src="img/equipo.jpg" alt="Banner de la fundacion" width="400">
+
+        <h2>Nuestra Misión</h2>
+        <p>Trabajamos para democratizar el acceso a la tecnología en comunidades vulnerables, brindando herramientas digitales y capacitación profesional para el <em>desarrollo socioeconómico</em>.</p>
+        
+        <nav>
+            <ul>
+                <li><a href="#alcance">Alcance de los Programa</a></li>
+                <li><a href="#form">Formulario de inscripcion</a></li>
+                <li><a href="#disp-manana">Disponibilidad</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="alcance">
+            <h2>Alcance de los Programa</h2>
+            <img src="https://www.salta.gob.ar/public/images/noticias/97499-alfabetizacion-digital-para-personas-mayores.jpg" alt="Grupo de gente certificada luego del curso" width="400">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Programa</th>
+                        <th>Sede principal</th>
+                        <th>Participantes 2025</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alfabetización Digital</td>
+                        <td>Hurlingham</td>
+                        <td>1.200</td>
+                        <td>En curso</td>
+                    </tr>
+                    <tr>
+                        <td>Programación e Inclusión Laboral</td>
+                        <td>Morón</td>
+                        <td>850</td>
+                        <td>En curso</td>
+                    </tr>
+                    <tr>
+                        <td>Mujeres en Tecnología</td>
+                        <td>San justo</td>
+                        <td>650</td>
+                        <td>En curso</td>
+                    </tr>
+                    <tr>
+                        <td>Espacios Tecnológicos Comunitarios</td>
+                        <td>San Miguel</td>
+                        <td>1.500</td>
+                        <td>Finalizado</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Total general de participantes</td>
+                        <td>4.200</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="form">
+            <h2>Formulario de inscripcion</h2>
+            <form action="#" method="post">
+                <p>
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: María Pérez" required>
+                </p>
+
+                <p>
+                <label for="email">Dirección de correo</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@mail.com" required>
+                </p>
+                
+                <p>
+                <label for="tel">Numero de telefono</label>
+                <input id="tel" name="tel" placeholder="1234567890" type="tel" >
+                </p>
+
+                <p>
+                <label for="programa">Programa a participar</label>
+                    <select id="programa" name="programa" required>
+                        <option value="">Elegir...</option>
+                        <option value="ad">Alfabetización Digital</option>
+                        <option value="pil">Programación e Inclusión Laboral</option>
+                        <option value="mt">Mujeres en Tecnología</option>
+                        <option value="etc">Espacios Tecnológicos Comunitarios</option>
+                    </select>
+                </p>
+
+                <section>
+                    <p>Disponibilidad</p>
+                    <label for="disp-manana">
+                    <input type="checkbox" id="disp-manana" name="disponibilidad" value="manana">
+                        Mañana
+                    </label>
+                    <label for="disp-tarde">
+                    <input type="checkbox" id="disp-tarde" name="disponibilidad" value="tarde">
+                        Tarde
+                    </label>
+                    <label for="disp-noche">
+                    <input type="checkbox" id="disp-noche" name="disponibilidad" value="noche">
+                        Noche
+                    </label>
+                </section>
+
+                <p>
+                <label for="mensaje">Dudas o consultas</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribí tu consulta acá..."></textarea>
+                </p>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <h2 id="contacto">Contacto</h2>
+        <p>
+            <a href="mailto:info@fundar.org.ar">info@fundar.org.ar</a><br>
+            <a href="tel:1121892564">Comuniquece con nosotros por wa</a><br>
+            <a href="https://instagram.com/fundar_org" target="_blank" rel="noopener noreferrer">Seguinos en Instagram</a>
+        </p>
+        <p><small>FundAR &copy; 2025 &mdash; Organización sin fines de lucro</small></p>
+    </footer>
+</body>
+</html>

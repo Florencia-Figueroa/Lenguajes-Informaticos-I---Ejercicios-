@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <p>
+        <label for="nombre">Nombre completo</label>
+        <input id="nombre" name="nombre" placeholder="Ej: Juan Perez" type="text" required>
+        </p>
+
+        <p>
+        <label for="email">Correo electronico</label>
+        <input id="email" name="email" placeholder="juanPerez@gmail.com" type="email" required>
+        </p>
+
+        <p>
+        <label for="tel">Numero de telefono</label>
+        <input id="tel" name="tel" placeholder="1234567890" type="tel" >
+        </p>
+
+        <p>
+        <label for="fecha">Fecha de nacimiento</label>
+        <input id="fecha" name="fecha"  type="date">
+        </p>
+
+        <p>
+            <label for="programa">Programa de interés</label>
+            <select id="programa" name="programa">
+                <option value="">Elegir...</option>
+                <option value="ad">Alfabetización Digital</option>
+                <option value="pil">Programación e Inclusión Laboral</option>
+                <option value="mt">Mujeres en Tecnología</option>
+            </select>
+        </p>
+
+        <section>
+            <p>Disponibilidad</p>
+            <label for="disp-manana">
+            <input type="checkbox" id="disp-manana" name="disponibilidad" value="manana">
+                Mañana
+            </label>
+            <label for="disp-tarde">
+            <input type="checkbox" id="disp-tarde" name="disponibilidad" value="tarde">
+                Tarde
+            </label>
+            <label for="disp-noche">
+            <input type="checkbox" id="disp-noche" name="disponibilidad" value="noche">
+                Noche
+            </label>
+        </section>
+
+        <section>
+            <p>Experiencia previa</p>
+            <label for="exp-si">
+            <input type="radio" id="exp-si" name="experiencia_previa" value="si" required>
+                Sí
+            </label>
+            <label for="exp-no">
+            <input type="radio" id="exp-no" name="experiencia_previa" value="no">
+                No
+            </label>
+        </section>
+
+        <p>
+        <label for="mensaje">Dudas o consultas</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu consulta acá..."></textarea>
+        </p>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
