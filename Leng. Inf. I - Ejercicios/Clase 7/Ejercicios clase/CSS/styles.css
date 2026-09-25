@@ -1,0 +1,76 @@
+/* Paleta de colores */
+:root {
+    --color-principal: #1A2B4A;
+    --color-secundario: #C8960C;
+    --color-fondo: #F8F6F0;
+    --fuente: "Lato", sans-serif;
+}
+
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: var(--fuente);
+    background-color: var(--color-fondo);
+}
+
+/* Punto 2: Header */
+header {
+    background-color: var(--color-principal);
+    color: white;
+}
+
+nav a:hover,
+.activo {
+    color: var(--color-secundario);
+}
+
+/* Punto 3: Hero */
+.hero {
+    background-color: var(--color-principal);
+    color: white;
+    padding: 4rem 2rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+/* Punto 4: Grilla de Cursos */
+.cursos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.curso-card {
+    border-top: 4px solid var(--color-secundario);
+}
+
+/* Punto 5: Sección de Profesores */
+.profesores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;  
+}
+
+/* Punto 6: Footer */
+footer {
+    background-color: var(--color-principal);
+    color: white;
+}
+
+footer a {
+    color: var(--color-secundario);
+}

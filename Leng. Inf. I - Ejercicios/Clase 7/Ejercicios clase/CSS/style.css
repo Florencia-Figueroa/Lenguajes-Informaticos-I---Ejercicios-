@@ -1,0 +1,71 @@
+/*Paleta de colores*/
+:root{
+    --color-principal: #1A4731;
+    --color-secundario: #2D6A4F;
+    --color-detalle: #E8611A;
+    --fuente: "Poppins";
+}
+
+/*Resect basico*/
+*{  box-sizing: border-box;
+    margin: 0 auto;
+}
+
+html{
+    font-size: 18px;
+}
+
+body{
+    max-width: 1100px;
+    font-family: var(--fuente);
+    font-size: 16px;
+}
+
+header{
+    background-color: var(--color-principal);
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+nav a{
+    color: var(--color-detalle);
+    text-decoration: none;
+}
+
+nav :hover{
+    color: white;
+}
+
+.servicios{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.card{
+    padding: 1.5rem;
+    border: var(--color-secundario);
+    border-radius: 8px;
+}
+
+footer{
+    background-color: var(--color-principal);
+    color: white;
+    text-align: center;
+}
+
+
+input{
+    padding: auto;
+    border: solid 1px;
+    width: 100%;
+}
