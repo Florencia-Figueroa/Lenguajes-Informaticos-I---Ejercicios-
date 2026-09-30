@@ -1,0 +1,15 @@
+body {
+ font-family: "Inter", sans-serif;
+ font-size: 16px;
+ color: #1A2B4A;
+}
+
+header {
+ background-color: #028090;
+ padding: 1rem;
+}
+
+nav a {
+ color: white;
+ text-decoration: none;
+}

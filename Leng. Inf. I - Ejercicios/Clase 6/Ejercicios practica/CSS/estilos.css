@@ -1,0 +1,26 @@
+p {
+    color: #333333;
+    font-size: 16px;
+}
+
+#titulo-principal {
+    color: #028090;
+    font-weight: bold;
+}
+
+.destacado{
+    background-color: #F5C842;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2{
+    font-family: "Georgia", serif;
+}
+
+a:hover {
+    color: #E8611A;
+}
