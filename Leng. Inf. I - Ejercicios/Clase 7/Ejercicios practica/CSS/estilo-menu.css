@@ -1,0 +1,14 @@
+nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+ nav a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(50, 50, 131);
+ }
+
+a:hover {
+    color: rgb(178, 232, 236);
+}

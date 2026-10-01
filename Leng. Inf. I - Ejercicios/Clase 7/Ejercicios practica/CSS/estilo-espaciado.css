@@ -1,0 +1,25 @@
+
+/* CSS actual — sin espaciado */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body { 
+    font-family: sans-serif; 
+}
+
+header { 
+    background: #1A2B4A; 
+    color: white; 
+    padding: 1.5rem 2rem; /* Agregado: para que el contenido no pegue contra los bordes azul */
+    margin-bottom: 2rem;  /* Agregado: para separar el header del main */
+}
+
+nav ul { 
+    list-style: none; 
+    display: flex;        /* Agregado: para poner los links en fila */
+    gap: 1.5rem;          /* Agregado: para separar los enlaces entre sí */
+    margin-top: 1rem;     /* Agregado: para separar la lista del título h1 */
+}

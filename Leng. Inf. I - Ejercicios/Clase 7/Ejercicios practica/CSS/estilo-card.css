@@ -1,0 +1,30 @@
+:root {
+    --color-acento: #C8960C; /* Color de acento */
+    --color-fondo: #F8F6F0;  /* Fondo general del sitio */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--color-fondo);
+    padding: 2rem;
+}
+
+.card{
+    border-top: 4px solid var(--color-acento);
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    flex: 1 1 280px;
+}
+
+.contenedor-cursos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 7 - Ejercicio 1 (Box Model)</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <h2>Elemento A</h2>
+    <div class="caja-a">
+        <p>Contenido de la caja A</p>
+    </div>
+
+    <h2>Elemento B</h2>
+    <div class="caja-b">
+        <p>Contenido de la caja B</p>
+    </div>
+
+</body>
+</html>
+
+
+<!--
+Respuestas teóricas de la consigna
+
+¿Cuánto ocupa en total el elemento A en el eje horizontal?
+
+Sin box-sizing: border-box (por defecto content-box):
+    Ancho del contenido (200px) + Padding izquierdo y derecho (20px+20px) + Borde izquierdo y derecho (5px+5px) + Margen izquierdo y derecho (10px+10px).
+    Total=200+40+10+20=270px
+    (El espacio físico que ocupa la caja en pantalla sin contar el margen es de 250px).
+
+Con box-sizing: border-box:
+    El width (200px) ya incluye el contenido, el padding y el borde. Solo se le suma el margen exterior (10px+10px).
+    Total=200+20=220px
+    (El ancho visible de la caja queda fijado exactamente en 200px).
+
+
+¿Qué hace margin: 0 auto? ¿En qué condición funciona ese centrado?
+
+    Establece 0 de margen superior e inferior, y calcula de forma automática (auto) los márgenes izquierdo y 
+    derecho equitativamente para centrar horizontalmente el elemento en su contenedor.
+
+Condición para que funcione:
+    El elemento debe ser de bloque (display: block o contenedores como <div>).
+    El elemento debe tener un ancho definido (width o max-width) menor al ancho total de su contenedor padre. 
+    Si no tiene ancho definido, ocupará el 100% de la pantalla y no habrá margen sobrante para distribuir.
+-->

@@ -1,0 +1,57 @@
+/* =========================================================
+   1. VARIABLES DE COLOR EN :root Y GOOGLE FONTS
+   ========================================================= */
+:root {
+    --color-fondo: #F5F0EB;
+    --color-primario: #5B9A8B;
+    --color-acento: #4A86E8;
+    --color-texto: #2D2B2A;
+    --color-tarjeta: #FFFFFF;
+    /* Tipografía con Google Fonts */
+    --fuente: "Poppins", sans-serif;
+}
+
+* {  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+/* Estilos globales del body (centrado de pantalla, fuente y colores) */
+body {
+    max-width: 1100px;
+    margin: 0 auto; /* Centra el contenido en pantallas grandes */
+    font-family: var(--fuente);
+    font-size: 16px;
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+}
+
+/* Header con su color de fondo */
+header {
+    background-color: var(--color-fondo);
+}
+
+/* Nav con Flexbox horizontal aplicado en la lista ul */
+nav ul {
+    display: flex; /* Flexbox horizontal */
+    list-style: none;
+    gap: 1.5rem;
+}
+
+/* Estilos para las tarjetas con ancho flexible */
+.card {
+    border-top: 4px solid var(--color-acento); /* Borde superior de acento */
+    background-color: var(--color-tarjeta);
+    padding: 1.5rem;
+    flex: 1 1 280px;                           /* Flexbox para grilla responsiva */
+}
+
+/* Footer con color primario (diferente al color de fondo del header) */
+footer {
+    background-color: var(--color-primario);
+}
