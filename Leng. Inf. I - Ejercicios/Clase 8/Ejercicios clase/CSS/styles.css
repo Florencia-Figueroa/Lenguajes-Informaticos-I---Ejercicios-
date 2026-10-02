@@ -1,0 +1,101 @@
+/*Paleta de colores*/
+:root{
+    --color-fondo: #F5F0EB;
+    --color-primario: #5B9A8B;
+    --color-acento: #4A86E8;
+    --color-texto: #2D2B2A;
+    --color-tarjeta: #f5db88;
+    --fuente: "Barlow";
+}
+
+/*Reset basico*/
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    font-family: var(--fuente);
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0.5rem;
+}
+
+nav a{
+    color: white;
+}
+
+nav a:hover{
+    color: var(--color-tarjeta);
+}
+
+main, section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* 1 - header con position:fixed — la barra de nav se queda arriba al hacer scroll. */
+header {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    background-color: var(--color-primario);
+    z-index: 1000;
+}
+
+.logo {
+    color: var(--color-tarjeta);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* 2 - Hero (.hero): imagen de fondo (background-image), background-size:cover, height:100vh. position:relative. */
+.hero {
+    background-image: url('https://img.magnific.com/vector-gratis/fondo-hojas-tropicales-dibujadas-mano_23-2148953987.jpg?semt=ais_hybrid&w=740&q=80');
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
+    position: relative;
+}
+
+/* 3 - .hero-content: position:absolute, centrado vertical y horizontalmente dentro del hero. */
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 4 - .planes: display:grid, grid-template-columns: repeat(3,1fr), gap:2rem. */
+.planes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+/* 5 - Cada .plan-card: position:relative. Badge .recomendado: position:absolute, top:-12px, right:1rem. */
+.plan-card {
+    position: relative;
+}
+
+.recomendado {
+    position: absolute;
+    top: -12px;
+    right: 1rem;
+}
+
+/* 6 - Sección instructores: display:grid, grid-template-columns: 1fr 2fr, gap:2rem (asimétrico). */
+.instructores {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+}

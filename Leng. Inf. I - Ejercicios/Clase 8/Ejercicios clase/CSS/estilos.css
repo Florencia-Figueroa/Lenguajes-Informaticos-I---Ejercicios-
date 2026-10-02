@@ -1,0 +1,104 @@
+:root {
+    --color-fondo: #F9F7F2;
+    --color-primario: #2C5E43;
+    --color-acento: #D96B43;
+    --color-secundario: #8A9A86;
+    --color-texto: #1C2826;
+    --color-tarjeta: #FFFFFF;
+}
+
+/*Reset basico*/
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+h1{
+    color: var(--color-primario);
+}
+
+p{
+    color:var(--color-acento);
+}
+
+nav a{
+    color: var(--color-primario);
+}
+
+nav a:hover{
+    color: var(--color-acento);
+}
+
+
+/* 1 y 2 - Catálogo de productos con CSS Grid */
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Única regla de columnas base */
+    gap: 1.5rem;
+}
+
+/* Primera fila: 2 columnas iguales (ocupan 3 de 6 espacios) */
+.catalogo .producto:nth-child(1),
+.catalogo .producto:nth-child(2) {
+    grid-column: span 3;
+}
+
+/* Segunda fila: 3 columnas iguales (ocupan 2 de 6 espacios) */
+.catalogo .producto:nth-child(3),
+.catalogo .producto:nth-child(4),
+.catalogo .producto:nth-child(5) {
+    grid-column: span 2;
+}
+
+/* Ajuste de imágenes dentro de las cards */
+.producto img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+/* 3 - Cada .producto con relative y .oferta con absolute */
+.producto {
+    position: relative;
+}
+
+.oferta {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: var(--color-acento);
+    color: white;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 4px;
+    z-index: 2;
+}
+
+/* 4 - Sticky sidebar */
+.sidebar {
+    position: sticky;
+    top: 5rem;
+}
+
+/* 5 - Layout principal */
+.layout-principal {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 2rem;
+    align-items: start; 
+}
+
+/*
+ 6 - ¿Cuándo elegirías Grid sobre Flexbox para el catálogo?
+    Elegiría CSS Grid cuando necesito controlar el diseño en dos dimensiones al mismo tiempo (filas y columnas simultáneamente), 
+    como en este caso donde la primera fila tiene 2 productos de ancho igual y la segunda fila tiene 3. Flexbox es mejor para 
+    arreglos unidireccionales (una sola fila o una sola columna).
+*/
