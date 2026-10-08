@@ -1,0 +1,60 @@
+/* Reset básico para ocupar el 100vh de la pantalla */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    /* Definimos 2 columnas: 200px para el nav y el resto (1fr) para el main */
+    grid-template-columns: 200px 1fr;
+    /* Filas: header y footer automáticos, el medio ocupa todo el espacio restante (1fr) */
+    grid-template-rows: auto 1fr auto;
+    /* Definimos las áreas del mapa visual */
+    grid-template-areas: 
+        "header header"
+        "nav    main"
+        "footer footer";
+    
+    /* Requisito: Ocupar al menos 100vh de alto */
+    min-height: 100vh;
+}
+
+/* Asignamos cada elemento a su área correspondiente */
+header {
+    grid-area: header;
+    background-color: #f39c12; /* Color para distinguir el límite */
+}
+
+nav {
+    grid-area: nav;
+    background-color: #3498db;
+}
+
+main {
+    grid-area: main;
+    background-color: #2ecc71;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #e74c3c;
+}
+
+
+/* ====================================================== */
+/* DESAFÍO EXTRA: Pantallas angostas (menos de 600px)     */
+/* ====================================================== */
+@media (max-width: 600px) {
+    body {
+        /* Pasamos a 1 sola columna */
+        grid-template-columns: 1fr;
+        /* Reordenamos las áreas para que el nav quede arriba del main */
+        grid-template-areas: 
+            "header"
+            "nav"
+            "main"
+            "footer";
+    }
+}

@@ -1,0 +1,15 @@
+p { 
+    color: gray; 
+}
+
+.contenido p {
+    color: blue; 
+}
+
+#seccion-principal .contenido p { 
+    color: green; 
+}
+
+p.especial { 
+    color: red; 
+}

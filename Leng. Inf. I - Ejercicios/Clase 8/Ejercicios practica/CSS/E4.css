@@ -1,0 +1,20 @@
+.grilla-a { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1.5rem; 
+    padding: 1rem;
+}
+
+.grilla-b { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.grilla-a .card{
+    border: solid cadetblue;
+}
+
+.grilla-b .card{
+    border: solid orange;
+}

@@ -1,0 +1,11 @@
+/* 1. El padre define el marco de referencia */
+.imagen-container {
+    position: relative; /*Le dice al navegador: marco de referencia. Todo lo que esté adentro y sea flotante se va a acomodar respecto a los bordes*/
+}
+
+/* 2. El hijo flota en la esquina superior izquierda del padre */
+.badge-oferta {
+    position: absolute; /*Le permite flotar dentro del contenedor*/
+    top: 10px;          /* Pegado a 10px del borde superior */
+    left: 10px;         /* Pegado a 10px del borde izquierdo */
+}

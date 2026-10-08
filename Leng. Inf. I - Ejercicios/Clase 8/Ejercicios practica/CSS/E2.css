@@ -1,0 +1,19 @@
+header{
+    /*El header ocupa el 100% del ancho de la pantalla.*/
+    width: 100%;
+    /*Queda pegado al borde superior (top:0) sin importar el scroll.*/
+    position: fixed;
+    top:0;
+    /*Tiene un z-index suficientemente alto para quedar por encima del contenido.*/
+    z-index: 100;
+}
+
+main #inicio{
+    /*El primer elemento del <main> tiene un padding-top que evita que quede tapado por el header.*/
+    padding-top: 100px;
+}
+
+nav a:hover{
+ /*Al hacer hover en los enlaces del nav, cambian de color.*/
+ color: palevioletred;
+}
